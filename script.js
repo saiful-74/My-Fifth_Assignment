@@ -1,12 +1,10 @@
 function inner_text(id) {
   const click_to_add = document.getElementById(id).innerText;
   const int = parseInt(click_to_add);
-
   return int;
 }
 function inner_text_class(clus) {
   const click_to_add = document.getElementsByClassName(clus).innerText;
-
   return click_to_add;
 }
 const classes = document.getElementsByClassName("fa-heart");
@@ -31,7 +29,6 @@ for (const single of coping) {
   });
 }
 
-// ...classes.item.apply.apply.apply.apply.apply.
 const calls = document.getElementsByClassName("call-btn");
 for (const single of calls) {
   single.addEventListener("click", function () {
